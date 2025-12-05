@@ -1,0 +1,13 @@
+# Helpers
+shlex
+datetime
+
+# Crawls
+requests==2.31.0
+beautifulsoup4==4.12.2
+
+# Logging
+coloredlogs==15.0.1
+
+# JSON-RPC / data handling
+simplejson==3.19.2

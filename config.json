@@ -1,0 +1,14 @@
+{
+  "model": "ollama:gptoss120_mcph2",
+  "mcpServers": {
+    "firmae": {
+      "type": "local",
+      "command": ["python3", "-u", "firmae_mcp.py"],
+      "env": {
+        "FIRMAE_HOME": "/home/ubuntu-server/FirmAE",
+        "EMUX_HOME": "/home/ubuntu-server/emux"
+      },
+      "stream": false
+    }
+  }
+}
