@@ -51,11 +51,11 @@ This project is intended to be run as an MCP server. A client capable of sending
 
 3.  **Running the server**:
     ```bash
-    python3 firmae_mcp.py
+    sudo ./mcphost --config config.json
     ```
 
 4.  **Interacting with the server**:
-    - Use an MCP client to send tool calls. For example, to emulate a firmware:
+    - Use an MCP client to send tool calls. For example, to emulate a firmware (can also use natural language instead of JSON-prettify):
     ```json
     {
       "tool_code": "handle_call({\"name\": \"firmae.emulate\", \"arguments\": {\"brand\": \"TPLINK\", \"firmware_file\": \"/path/to/firmware.bin\"}})"
