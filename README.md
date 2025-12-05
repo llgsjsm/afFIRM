@@ -1,4 +1,4 @@
-# afFIRM: Automated Firmware FIRMAE-based Repository & Manager
+# afFIRM: Automated firmware emulation powered by MCP
 
 **afFIRM** is a command-line tool and Model Context Protocol (MCP) server that provides a powerful automation and management layer on top of the [FirmAE](https://github.com/pr0v3rbs/FirmAE) firmware emulation framework and the `emux` emulation tool. It is designed to streamline the process of firmware analysis, from acquisition and emulation to failure analysis and results tracking.
 
